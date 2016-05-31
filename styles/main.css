@@ -85,3 +85,39 @@ a {
 .info_block .info_body {
 	font-size: 24;
 }
+
+#members {
+	clear:both;
+	margin: 0 10% 0 10%;
+	padding: 100px 0 10px 0;
+}
+
+.member_panel {
+	display: inline;
+}
+
+.member_panel .member_header {
+	font-size: 28;
+	font-weight: 500;
+	padding-bottom: 20px;
+}
+
+.member_panel ul {
+    list-style-type: none;
+    margin: 16px 16px 16px 0px;
+    padding: 0px;
+}
+
+.member_panel li {
+	display: inline;
+	font-size: 24;
+	margin: 0 32px 0 0px;
+	padding: 8px;
+}
+
+.member_panel ul li img{
+	width: 96px;
+	height: 96px;
+	vertical-align: text-top;
+	padding-right: 16px;
+}
