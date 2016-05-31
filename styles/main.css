@@ -1,12 +1,13 @@
 body {
 	background-color: #EEEEEE;
-	background: url("../data/images/back.jpg");
+	background: url(http://wallpapercave.com/wp/TfTdoPd.png);
 	-moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: top center !important;
 	background-repeat: no-repeat !important;
 	background-attachment: fixed;
+	color: #FFFFFF;
 }
 
 body,
@@ -32,15 +33,20 @@ a {
 	text-decoration: none;
 }
 
+.nav {
+	display: inline;
+	font-size: 32;
+}
+
 .nav .header {
 	float: left;
-	margin: 16px 64px 16px 64px;
-	font-size: 32;
+	margin: 16px 24px 16px 24px;
+	font-weight: bold;
 }
 
 .nav ul {
     list-style-type: none;
-    margin: 16px 64px 16px 64px;
+    margin: 16px 16px 16px 16px;
     padding: 0px;
 	float: right;
 }
@@ -48,18 +54,17 @@ a {
 .nav li {
 	display: inline;
 	font-size: 24;
-	margin: 0 32px 0 0;
-	padding-bottom: 8px;
-	padding-top: 8px;
+	margin: 0 32px 0 0px;
+	padding: 8px;
 }
 
 .nav li a {
-	display: inline;
-	font-size: 24;
-	margin: 0 32px 0 0;
-	padding-bottom: 8px;
-	padding-top: 8px;
 	color:inherit;
 	text-decoration: none;
 }
 
+.git_icon {
+	height: 32px;
+	width: 32px;
+	vertical-align: text-bottom;
+}
