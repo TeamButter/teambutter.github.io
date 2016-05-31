@@ -28,6 +28,10 @@ h6 {
   font-weight: 400;
 }
 
+a {
+	text-decoration: none;
+}
+
 .nav .header {
 	float: left;
 	margin: 16px 64px 16px 64px;
