@@ -16,9 +16,9 @@ xmlhttp.onreadystatechange=function() {
 					if (request.readyState == 4 && request.status == "200") {
 						var mJSONobj = JSON.parse(request.responseText);
 						if(out == null)
-							out = "<li><img src=\""+mJSONobj.avatar_url+"\">" + mJSONobj.login + "</li>";
+							out = "<li><a href=\"https://github.com/"+mJSONobj.login+"\" style=\"color: white\"><img src=\""+mJSONobj.avatar_url+"\">" + mJSONobj.login + "</a></li>";
 						else
-							out += "<li><img src=\""+mJSONobj.avatar_url+"\">" + mJSONobj.login + "</li>";
+							out += "<li><a href=\"https://github.com/"+mJSONobj.login+"\" style=\"color: white\"><img src=\""+mJSONobj.avatar_url+"\">" + mJSONobj.login + "</a></li>";
 					}
 				}
 				request.open("GET",n_url,false);
