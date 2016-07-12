@@ -52,9 +52,9 @@ xmlhttp2.onreadystatechange=function() {
 								msg[13] = null;	
 							}
 							if(out == null)
-								out = "<li><a href=\"https://github.com/" + arr[i].repo.name + "/commit/" + arr[i].payload.commits[0].sha + "\"><img src=\"" + arr[i].actor.avatar_url + "\" style=\"text-decoration: none;\"> " +  msg + "</a></span></li>";
+								out = "<li><a href=\"https://github.com/" + arr[i].repo.name + "/commit/" + arr[i].payload.commits[0].sha + "\" style=\"color: white\"><img src=\"" + arr[i].actor.avatar_url + "\" style=\"text-decoration: none;\"> " +  msg + "</a></span></li>";
 							else
-								out += "<li><a href=\"https://github.com/" + arr[i].repo.name + "/commit/" + arr[i].payload.commits[0].sha + "\"><img src=\"" + arr[i].actor.avatar_url + "\" style=\"text-decoration: none;\"> " +  msg + "</a></span></li>";
+								out += "<li><a href=\"https://github.com/" + arr[i].repo.name + "/commit/" + arr[i].payload.commits[0].sha + "\" style=\"color: white\"><img src=\"" + arr[i].actor.avatar_url + "\" style=\"text-decoration: none;\"> " +  msg + "</a></span></li>";
 							count = count + 1;
 						}
 					}
