@@ -1,0 +1,29 @@
+[{
+	"name":"CyanogenMod 10.1",
+	"device":"Samsung Galaxy Star",
+	"link":"",
+	"maintainers":"corphish",
+	"status":"Discontinued",
+},
+{
+	"name":"CyanogenMod 11",
+	"device":"Samsung Galaxy Star",
+	"link":"",
+	"maintainers":"corphish, halfpsych",
+	"status":"Discontinued",
+},
+{
+	"name":"CyanogenMod 12.1",
+	"device":"Samsung Galaxy Star",
+	"link":"",
+	"maintainers":"corphish, Lehkeda, halfpsych",
+	"status":"Discontinued",
+},
+{
+	"name":"CyanogenMod 13",
+	"device":"Samsung Galaxy Star",
+	"link":"",
+	"maintainers":"corphish, Lehkeda",
+	"status":"Unofficial",
+},
+]
